@@ -9,16 +9,16 @@ function computerPlay() {
 function playRound(playerSelection, computerSelection) {
     if (playerSelection == 'Kamen' && computerSelection == 'Makaze') {
         playerScore++;
-        return 'Pobedio si! Kamen pobeđuje Makaze. Rezultat:' + playerScore + ':' + computerScore;
+        return 'Pobedio si! Kamen pobeđuje Makaze. Rezultat: ' + playerScore + ':' + computerScore;
     } else if (playerSelection == 'Kamen' && computerSelection == 'Papir') {
         computerScore++;
-        return 'Izgubio si, Kamen gubi od Papira. Rezultat:' + playerScore + ':' + computerScore;
+        return 'Izgubio si, Kamen gubi od Papira. Rezultat: ' + playerScore + ':' + computerScore;
     } else if (playerSelection == 'Papir' && computerSelection == 'Makaze') {
         computerScore++;
-        return 'Izgubio si, Papir gubi od Makaza. Rezultat:' + playerScore + ':' + computerScore;
+        return 'Izgubio si, Papir gubi od Makaza. Rezultat: ' + playerScore + ':' + computerScore;
     } else if (playerSelection == 'Papir' && computerSelection == 'Kamen') {
         playerScore++;
-        return 'Pobedio si! Papir pobeđuje Kamen. Rezultat:' + playerScore + ':' + computerScore;
+        return 'Pobedio si! Papir pobeđuje Kamen. Rezultat: ' + playerScore + ':' + computerScore;
     } else if (playerSelection == 'Makaze' && computerSelection == "Kamen") {
         computerScore++;
         return 'Izgubio si, Makaze gube od Kamena. Rezultat: ' + playerScore + ':' + computerScore;
@@ -36,9 +36,9 @@ function game() {
         console.log(playRound(playerSelection, computerSelection))
     }
     if (playerScore > computerScore) {
-        console.log('Ti si pobednik! Finalni Rezultat:' + playerScore + ':' + computerScore);
+        console.log('Ti si pobednik! Finalni Rezultat: ' + playerScore + ':' + computerScore);
     } else if (computerScore > playerScore) {
-        console.log('Ti si gubitnik, Finalni Rezultat:' + playerScore + ':' + computerScore);
+        console.log('Ti si gubitnik, Finalni Rezultat: ' + playerScore + ':' + computerScore);
     } else
         console.log('Nerešeno je! Finalni Rezultat: ' + playerScore + ':' + computerScore);
 }
