@@ -1,8 +1,11 @@
-# rock-paper-scissors
+# Rock Paper Scissors
 Project Rock Paper Scissors from Odin Project
-<br>
-<ul><li>Rock - Kamen</li>
-    <li>Paper - Papir</li>
-    <li>Scissors - Makaze</li>
-</ul>
+
+# Translation
+* Rock - Kamen
+
+* Paper - Papir
+
+* Scissors - Makaze
+
     
